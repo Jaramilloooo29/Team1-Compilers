@@ -1,0 +1,10 @@
+
+def texto_a_ascii(texto):
+    for caracter in texto:
+        print(f"'{caracter}' -> {ord(caracter)}")
+
+# Ejemplo de uso
+entrada = "Hola!"
+print("Texto a códigos ASCII:\n")
+texto_a_ascii(entrada)
+
