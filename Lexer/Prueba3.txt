@@ -1,0 +1,28 @@
+int factorial(int n) {
+    int resultado = 1;
+    for (int i = 1; i <= n; i++) {
+        resultado *= i;
+    }
+    return resultado;
+}
+
+int main() {
+    int numero = 5;
+    int fact = factorial(numero);
+
+    printf("El factorial de %d es: %d\n", numero, fact);
+
+    if (fact % 2 == 0) {
+        printf("El resultado es un número par.\n");
+    } else {
+        printf("El resultado es un número impar.\n");
+    }
+
+    // Bucle para mostrar números del 1 al 5
+    for (int j = 1; j <= 5; j++) {
+        printf("Número: %d\n", j);
+    }
+
+    return 0;
+}
+

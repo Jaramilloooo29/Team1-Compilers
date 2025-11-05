@@ -1,0 +1,21 @@
+#include <stdio.h>  // Biblioteca estándar para entrada y salida
+
+int main() {
+    int num1, num2, suma;  // Declaración de variables enteras
+
+    // Solicita al usuario que ingrese el primer número
+    printf("Ingresa el primer número: ");
+    scanf("%d", &num1);  // Lee el número ingresado y lo guarda en num1
+
+    // Solicita al usuario que ingrese el segundo número
+    printf("Ingresa el segundo número: ");
+    scanf("%d", &num2);  // Lee el número ingresado y lo guarda en num2
+
+    // Calcula la suma de los dos números
+    suma = num1 + num2;
+
+    // Muestra el resultado al usuario
+    printf("La suma de %d y %d es %d\n", num1, num2, suma);
+
+    return 0;  // Fin del programa
+}
